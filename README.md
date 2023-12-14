@@ -8,3 +8,10 @@ forest with default hyperparameters.
 
 Find out what's going on, why auto-sklearn's performance is so bad, and how to
 fix it.
+
+## References
+https://automl.github.io/auto-sklearn/master/installation.html
+https://adamnovotny.com/blog/google-colab-and-automl-auto-sklearn-setup.html
+https://stackoverflow.com/questions/53839948/how-to-install-auto-sklearn-on-googlecolab
+https://stackoverflow.com/questions/12555323/how-to-add-a-new-column-to-an-existing-dataframe
+https://automl.github.io/auto-sklearn/master/examples/20_basic/example_classification.html
