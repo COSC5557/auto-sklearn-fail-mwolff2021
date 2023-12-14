@@ -5,8 +5,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
 
 X, y = fetch_openml(data_id=40691, as_frame=True, return_X_y=True)
+print(X)
 enc = OneHotEncoder(handle_unknown='ignore')
 X = enc.fit_transform(X)
+print(X)
 
 X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, random_state=42)
 
@@ -21,3 +23,5 @@ automl = AutoSklearnClassifier(time_left_for_this_task=300)
 automl.fit(X_train, y_train)
 y_hat = automl.predict(X_test)
 print("AutoML Accuracy", sklearn.metrics.accuracy_score(y_test, y_hat))
+print(automl.leaderboard())
+print(automl.show_models(), indent=4)
