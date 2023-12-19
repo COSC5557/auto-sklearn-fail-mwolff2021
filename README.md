@@ -26,3 +26,4 @@ https://automl.github.io/auto-sklearn/master/faq.html#results-log-files-and-outp
 https://tex.stackexchange.com/questions/63981/references-not-printing
 https://www.w3schools.com/python/ref_random_seed.asp
 https://stackoverflow.com/questions/14463277/how-to-disable-python-warnings
+https://automl.github.io/auto-sklearn/master/examples/40_advanced/example_debug_logging.html
